@@ -13,6 +13,7 @@ public class Code {
     private String code ; 
     private String name ; 
     private int credit ;
+    private int number ; 
 
     public Code() {
     }
@@ -45,6 +46,14 @@ public class Code {
 
     public void setCredit(int credit) {
         this.credit = credit;
+    }
+    
+     public int getNumber() {
+        return credit;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     @Override
