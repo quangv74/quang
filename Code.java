@@ -62,7 +62,7 @@ public class Code {
 
     @Override
     public String toString() {
-        return code + "\t" + name + "\t" + credit ;
+        return code + "\t" + name + "\t" + credit +"\t" ;
     }
     
 }
