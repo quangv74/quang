@@ -23,10 +23,14 @@ public class Code {
         this.name = name;
         this.credit = credit;
     }
-
+    public Code(String code, String name){
+        this.code = code;
+        thí.name = name;
+    }
     public String getCode() {
         return code;
     }
+    
 
     public void setCode(String code) {
         this.code = code;
