@@ -23,7 +23,9 @@ public class Course {
         this.credit = credit;
     }
     
-    
+    public Course(String code){
+        this.code = code;
+    }
 
     public String getCode() {
         return code;
