@@ -55,7 +55,7 @@ public class Course {
     public String toString() {
         return code + "\t" + name + "\t" + credit ;
     }
-    
+    public int input(){}
     
     
     
