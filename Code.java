@@ -18,7 +18,7 @@ public class Code {
     }
 
     public Code(String code, String name, int credit) {
-        this.code = code;
+        //this.code = code;
         this.name = name;
         this.credit = credit;
     }
