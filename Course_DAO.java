@@ -30,6 +30,10 @@ public class Course_DAO {
         return null;
     }
     
+    public void abc{
+        
+    }
+    
     public boolean addCourse(Course course) {
         int firstValue = vector.size();
         vector.add(course);
